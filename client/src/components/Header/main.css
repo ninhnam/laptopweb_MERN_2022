@@ -1,0 +1,194 @@
+/** @format */
+
+:root {
+  --header-clr: #1e73ac;
+}
+
+.header__sum {
+  height: 160px;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__sum {
+  text-align: center;
+  align-items: center;
+}
+
+.header_logo {
+  width: 100%;
+}
+
+.header_logo img {
+  width: 100%;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__search {
+  width: 100%;
+  border: 1px solid #333;
+  height: 36px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.header__search input {
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+
+
+
+.header__search .icon {
+  position: absolute;
+  width: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  font-size: 20px;
+  color: var(--header-clr);
+}
+
+.header__insurance {
+  display: flex;
+}
+
+.header__insurance-day {
+  color: #1e73ac;
+  padding-left: 10px;
+}
+
+.header__insurance-day .number {
+  font-size: 42px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.header__insurance-day .letter {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.header__insurance-insurance {
+  width: 100px;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+  padding-left: 8px;
+}
+
+.header__extension-item {
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--header-clr);
+  position: relative;
+}
+
+.header__extension {
+  display: flex;
+  align-items: center;
+}
+
+.header__extension .icon {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.userTable {
+  z-index: 100;
+  position: absolute;
+  top: calc(100% + 20px);
+  width: 350px;
+  right: 10%;
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 0 10%;
+  border-radius: 8px;
+}
+
+.userBtn {
+  width: 100%;
+  margin-bottom: 14px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  animation: all 1s linear;
+  font-weight: bold;
+}
+
+.userID {
+  padding-bottom: 14px;
+}
+
+.userName {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
+.userBtnLogout {
+  border: 2px solid red;
+  color: red;
+}
+.userBtnLogout:hover {
+  color: white;
+  background-color: red;
+}
+
+.userBtnInfo {
+  border: 2px solid #0186cf;
+  color: #0186cf;
+}
+.userBtnInfo:hover {
+  color: white;
+  background-color: #0186cf;
+}
+
+.tamgiac {
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #ccc;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
